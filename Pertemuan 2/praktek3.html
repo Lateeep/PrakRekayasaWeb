@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktek 3</title>
+</head>
+<body>
+    <form action="action_form.html" method="post">
+        <table border="1">
+            <tr>
+                <td colspan="3"> <h3 align="Center">Input Data Mahasiswa</h3> </td>
+            </tr>
+            <tr>
+                <td>No Mahasiswa</td><td>:</td><td><input type="text" name="no_mhs" size="15"></td>
+            </tr>
+            <tr>
+                <td>Nama Mahasiswa</td><td>:</td><td><input type="text" name="nama" size="30"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td><td>:</td>
+                <td><input type="radio" name="rbjk" value="P">Pria &nbsp; <input type="radio" name="rbjk" value="w"Wanita></td>
+            </tr>
+            <tr>
+                <td>Jurusan</td><td>:</td>
+                <td><select name="cbjurusan">
+                    <option value="pil">Pilih Jurusan</option>
+                    <option value="TM">Teknik Mesin</option>
+                    <option value="TI">Teknik Industri</option>
+                    <option value="TF">Teknik Informatika</option>
+                    <option value="TP">Teknik Penerbangan</option>
+                    <option value="TE">Teknik Elektro</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td> <td>:</td> <td><input type="date" name="tgl"></td>
+            </tr>
+            <tr>
+                <td>email</td><td>:</td><td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="submit" name="simpan" value="Proses"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
